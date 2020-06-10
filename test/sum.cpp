@@ -17,7 +17,7 @@ int main(int argc, const char** argv) {
         argc--;
     }
     
-    std::cout << Add (type 1) ou Multiply (type anything) ? " << endl;
+    std::cout << "Add (type 1) ou Multiply (type anything) ? " << endl;
     string val;
     cin >> val;
     bool do_mult = val.compare("1") != 0; 
