@@ -1,0 +1,4 @@
+{
+    "binary-path" : "node_modules/youtube-dl/bin/youtube-dl.exe",
+    "download-path" : "./downloads"
+}
