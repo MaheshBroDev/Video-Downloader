@@ -3,9 +3,7 @@
 const express = require('express'),
 	  bodyParser = require('body-parser'),
 	  app = express().use(bodyParser.json());
-const rimraf = require('rimraf');
 const fs = require('fs');
-const fs_extra = require('fs-extra');
 const port = 5000;
 
 const afYoutube = require("./tools/afYoutube");
