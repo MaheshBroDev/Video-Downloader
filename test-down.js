@@ -1,6 +1,6 @@
 const afYoutube = require("./tools/afYoutube");
 const config = require("./project.config.json");
-// mettre le bin dans un fichier de config
+
 let downloader = new afYoutube(config['binary-path']);
 downloader.on('data', function(data) {
     console.log('DATA RECEIVED 1');
